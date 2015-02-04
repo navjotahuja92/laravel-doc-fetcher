@@ -6,7 +6,7 @@ I wanted the document offline to see changes made in Laravel 5.0
 Instruction:
 
 1. cd into laravel-doc-fetcher
-2. Run python.py
+2. Run python index.py
 
 	Now watch the log it will start downloading laravel documentation.
 
@@ -15,4 +15,4 @@ Instruction:
 
 3. Now open output.html
 
-Note : Use Ctrl+P to save the output.html file as PDF
+Note : Use Ctrl+P to save the output.html file as PDF in Google Chrom
