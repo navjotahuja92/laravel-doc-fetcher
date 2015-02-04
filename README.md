@@ -13,6 +13,6 @@ Instruction:
 	![alt tag](https://github.com/navjotahuja92/laravel-doc-fetcher/blob/master/log.png)
 
 
-3. Now open output.html
+3. Now open output.html got created in laravel-doc-getcher.
 
 Note : Use Ctrl+P to save the output.html file as PDF in Google Chrom
