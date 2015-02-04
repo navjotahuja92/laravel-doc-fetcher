@@ -15,4 +15,11 @@ Instruction:
 
 3. Now open output.html got created in laravel-doc-getcher.
 
-Note : Use Ctrl+P to save the output.html file as PDF in Google Chrom
+Note : Use Ctrl+P to save the output.html file as PDF in Google Chrome
+
+Packages you must have : 
+
+urllib2
+BeautifulSoup
+logging
+coloredlogs
