@@ -20,7 +20,7 @@ for url in url_list:
 	logging.warn('Reading : ' + url)
 	response = urllib2.urlopen(url)
 	soup = BeautifulSoup(response.read())
-	content_html = soup.find("div",{ 'id' : 'docs-content'})
+	content_html = soup.find("article")
 	# print(content_html)
 	outFile.write(content_html.encode("utf-8"))
 	# Correct Links content_html.replace('="/docs"','http://laravel.com/docs')
