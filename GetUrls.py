@@ -3,7 +3,7 @@ import urllib2
 
 f = open('urls.txt','w+')
 
-response = urllib2.urlopen('http://laravel.com/docs/master')
+response = urllib2.urlopen('http://laravel.com/docs/5.0')
 soup = BeautifulSoup(response.read())
 
 UrlsHTML = soup.find("nav",{ 'id' : 'docs'})
